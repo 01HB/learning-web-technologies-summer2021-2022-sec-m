@@ -1,0 +1,13 @@
+<!don't break the structure of the Xml....if there is no info leave it empty within the angular brack...>
+<students>
+<student>
+<name>Hasan Bithto</name>
+<id>20-42382-1</id>
+<email>hasanbithto207058@gmail.com</email>
+</student>
+<student>
+<name>Sajit</name>
+<id>20-42424-1</id>
+<email>sajit456@gmail.com</email>
+</student>
+</students>
