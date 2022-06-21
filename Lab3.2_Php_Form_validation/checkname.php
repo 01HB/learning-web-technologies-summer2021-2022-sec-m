@@ -1,7 +1,7 @@
 <?php
 
-    $name=$_POST['name'];
-    $i = sizeof($name);
+    $name = $_POST['name'];
+    //$i = sizeof($name);
     $fl= 0;
 
     if($name == null){
@@ -12,8 +12,8 @@
             echo "username must start with a letter";
         }
         else{
-            for($j=0; $j<$i; $j++){
-                    if($name[$j]==" "){
+            for($j=0; $j<10; $j++){
+                    if($name[$j] == " "){
                             $fl=1;
                             break;
                     }
