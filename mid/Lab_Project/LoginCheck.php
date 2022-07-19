@@ -5,8 +5,8 @@
 	$password = $_POST['password'];
 	$usertype = $_POST['usertype'];
 
-	if($userid == null || $password == null){
-		echo "null username/password";
+	if($userid == null || $password == null || $usertype == null){
+		echo "empty username or password or usertype!!";
 	}else{
 
 		if($usertype == 'admin'){

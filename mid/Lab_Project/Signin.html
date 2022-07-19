@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Sign in</title>
+		<style type="text/css">
+			form{
+				margin-top: 170px;
+				margin-left: 240px;
+			}
+			fieldset{
+				width: 10%;
+				padding: 15px;
+				font-size: 20px;
+			}
+			body{
+				font-family: cambria;
+			}
+		</style>
+</head>
+<body>
+
+	<form method="post" action="LoginCheck.php" enctype="">
+		<fieldset>
+			<legend><b><i>Login</i></b></legend>
+				<table>
+					<tr>
+						<td>User Type</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="usertype" value="user" > user
+							<input type="radio" name="usertype" value="admin" > admin
+						</td>
+								
+					</tr>
+					<tr>
+						<td>User Id</td>
+					</tr>
+					<tr>
+						<td><input type="number" name="userid" value=""></td>
+					</tr>
+						<td>Password</td>
+					</tr>
+					<tr>
+						<td><input type="password" name="password" value=""></td>
+					</tr>
+					<tr>
+						<td><br><input type="submit" name="login" value="Login"> <a href="Reg.html">Register</a></td>
+					</tr>
+
+				</table>
+		</fieldset>
+	</form>
+</body>
+</html>
